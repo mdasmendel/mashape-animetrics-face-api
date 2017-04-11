@@ -1,0 +1,29 @@
+{
+  "name": "mashape-animetrics-face-api",
+  "version": "1.0.0",
+  "description": "Packge for integrate Masape Animetrics Face Recognition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdasmendel/mashape-animetrics-face-api.git"
+  },
+  "keywords": [
+    "Masape",
+    "Animetrics",
+    "Face",
+    "Recognition"
+  ],
+  "author": "Dascal Mihai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdasmendel/mashape-animetrics-face-api/issues"
+  },
+  "homepage": "https://github.com/mdasmendel/mashape-animetrics-face-api#readme",
+  "dependencies": {
+    "lodash.defaults": "^4.2.0",
+    "lodash.merge": "^4.6.0"
+  }
+}
