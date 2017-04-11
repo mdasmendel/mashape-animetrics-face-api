@@ -22,8 +22,6 @@ $ npm install mashape-animetrics-face-api
 
 ## Usage
 
-Include `Mashape Analytics Agent` after `jQuery`.
-
 ```js
 // Basic usage
 const mashapeAnimetricsApi = require('mashape-animetrics-face-api');
@@ -32,11 +30,11 @@ let client = mashapeAnimetricsApi.client({
     "animetricsKey": "xxxxxxxxxxxxxxxxx",
     "mashapeKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   });
+  ...
+  let detect = yield mashapeCilent.detect.fromUrl('photo url here');
   
-  let detect = yield mashapeCilent.detect.fromUrl('photo url here');
-  
-  let enroll = yield detect.enroll().execute('gallery id here', 'image id here');
-
+  let enroll = yield detect.enroll().execute('gallery id here', 'image id here');
+  ...
 ```
 ## Copyright and license
 
