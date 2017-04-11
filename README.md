@@ -38,3 +38,8 @@ let client = mashapeAnimetricsApi.client({
   let enroll = yield detect.enroll().execute('gallery id here', 'image id here');
 
 ```
+## Copyright and license
+
+Copyright Dascal Mihai, 2017.
+
+Licensed under [the MIT License](https://github.com/mdasmendel/mashape-animetrics-face-api/blob/master/LICENSE)
