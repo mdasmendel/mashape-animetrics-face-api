@@ -28,7 +28,6 @@
     "popsicle": "^9.1.0",
     "popsicle-status": "^2.0.0",
     "request": "^2.81.0",
-    "request-promise": "^4.2.0",
     "url-join": "^1.1.0"
   }
 }
