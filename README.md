@@ -31,9 +31,18 @@ let client = mashapeAnimetricsApi.client({
     "mashapeKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   });
   ...
-  let detect = yield mashapeCilent.detect.fromUrl('photo url here');
-  
-  let enroll = yield detect.enroll().execute('gallery id here', 'image id here');
+ 	co(function *(){
+	    ...
+        let detect = yield mashapeCilent.detect.fromUrl('photo url here');//detect image from url
+          
+        let enroll = yield detect.enroll('gallery id here', 'subject id here','face id (default 0)');//enroll image from current detect
+         
+        let gallery = yield mashapeCilent.gallery('gallery id').getSubjects();//get subjects id
+         
+        enroll = yield mashapeCilent.gallery('gallery id').enroll('image obj', 'face obj', 'subject id');//enroll image in current group
+        ...
+ 	})
+ 	.catch(onError)
   ...
 ```
 ## Copyright and license
