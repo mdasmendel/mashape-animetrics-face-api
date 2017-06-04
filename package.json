@@ -1,6 +1,6 @@
 {
   "name": "mashape-animetrics-face-api",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Packge for integrate Masape Animetrics Face Recognition",
   "main": "index.js",
   "scripts": {
