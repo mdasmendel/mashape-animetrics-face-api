@@ -256,6 +256,4 @@ Returns **[Recognize](#recognize)**
 
 ## Copyright and license
 
-Copyright Dascal Mihai, 2017.
-
 Licensed under [the MIT License](https://github.com/mdasmendel/mashape-animetrics-face-api/blob/master/LICENSE)
